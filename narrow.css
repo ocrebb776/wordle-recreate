@@ -1,0 +1,76 @@
+body {
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  background-color: #121213;
+}
+.header {
+  text-align: center;
+  height: 6.2vh;
+  font-size: 5vh;
+  color: white;
+  border-bottom: 0.1vw solid #4f4f52;
+  letter-spacing: 1vw;
+
+  width: 90vw;
+  top: 0;
+  float: top;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  position: absolute;
+}
+.wordle {
+}
+.settings {
+  margin-top: 1vh;
+  float: right;
+  height: 2.5vh;
+  margin-right: 1vw;
+  float: top;
+}
+.stats {
+  margin-top: 1vh;
+  float: right;
+  height: 2.5vh;
+  float: top;
+  margin-right: 5vw;
+}
+.qmark {
+  margin-top: 1vh;
+  float: left;
+  height: 2vh;
+  margin-left: 5vw;
+}
+.y {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 6.2vh;
+  font-size: 5vh;
+  color: white;
+  letter-spacing: 0.6vw;
+  float: top;
+  width: 10vw;
+  top: 0;
+}
+.b {
+  color: white;
+  text-align: center;
+  margin-top: 6.2vh;
+}
+.box {
+  max-width: 10vw;
+  max-height: 10vw;
+  min-width: 10vw;
+  min-height: 10vw;
+  border: 0.5vw solid #4f4f52;
+  margin: 0.6vw;
+  background-color: #121213;
+  position: static;
+  font-size: 7vw;
+  color: white;
+  margin-left: 0vw;
+  margin-bottom: 0vh;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
