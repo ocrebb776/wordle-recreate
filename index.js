@@ -10,7 +10,10 @@ function greenf(cell) {
 function set(cell, press) {
   document.getElementById(cell).innerHTML = press
 }
-
+function graykey(cell) {
+  document.getElementById(cell).style.backgroundColor = gray
+  document.getElementById(cell).style.border = gray
+}
 function delay(time) {
   time = time * 1000
   return new Promise((resolve) => setTimeout(resolve, time))
@@ -50,6 +53,7 @@ const orange = '#b59d3b'
 const green = '#538d4e'
 const gray = '#4f4f52'
 const con = ['a', 'b', 'c', 'd', 'e', 'f']
+let keygray
 /*
 function display(rows) {
   enter = prompt('enter a 5 letter word for row: ' + rows).toUpperCase()
@@ -79,7 +83,7 @@ function key(press) {
   }
 }
 function checks() {
-  enter = ent[0] + ent[1] + ent[2] + ent[3] + ent[4]
+  enter = String(ent[0] + ent[1] + ent[2] + ent[3] + ent[4])
   if (enter.length == 5) {
     if (word.includes(enter) == true) {
       check()
