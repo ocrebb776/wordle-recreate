@@ -43,9 +43,9 @@ function win() {
 
 let stage = 0
 const ent = []
-const array = ['p', 'A', 'Y', 'E', 'E']
+const array = ['C', 'A', 'S', 'E', 'S']
 let enter
-let correct = 'PAYEE'
+let correct = 'CASES'
 const orange = '#b59d3b'
 const green = '#538d4e'
 const gray = '#4f4f52'
