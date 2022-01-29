@@ -32,10 +32,12 @@ function notword() {
 function hidewin() {
   document.getElementById('yay').style.width = '0vw'
   document.getElementById('yay').style.fontSize = '0vh'
+  document.getElementById('yay').style.height = '0vh'
 }
 function win() {
-  document.getElementById('yay').style.width = '60vw'
-  document.getElementById('yay').style.fontSize = '5vh'
+  document.getElementById('yay').style.width = '70vw'
+  document.getElementById('yay').style.fontSize = '5vw'
+  document.getElementById('yay').style.height = '70vh'
   delay(10).then(() => hidewin())
 }
 
@@ -100,6 +102,7 @@ function check() {
     console.log('yo')
     document.getElementById('word').innerHTML = correct.toLowerCase()
     win()
+    document.getElementById('tri').innerHTML = stage + 1 + ' tries'
   }
 
   let i = 1

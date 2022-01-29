@@ -111,11 +111,11 @@ table {
 }
 .yay {
   text-align: center;
-  height: 6.2vh;
   font-size: 0vh;
   color: white;
   background-color: #4f4f52;
-  width: 0vw;
+  width: 0;
+  height: 60vh;
   top: 0;
   margin-left: 20vw;
   margin-right: 20vw;
