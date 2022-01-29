@@ -36,7 +36,7 @@ function hidewin() {
 function win() {
   document.getElementById('yay').style.width = '60vw'
   document.getElementById('yay').style.fontSize = '5vh'
-  delay(2).then(() => hidewin())
+  delay(10).then(() => hidewin())
 }
 
 let stage = 0
@@ -97,9 +97,9 @@ function back() {
 function check() {
   var row = con[stage]
   if (enter == correct) {
-    alert('you win')
     console.log('yo')
     document.getElementById('word').innerHTML = correct.toLowerCase()
+    win()
   }
 
   let i = 1
