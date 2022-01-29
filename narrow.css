@@ -16,6 +16,20 @@ body {
   margin-right: 5vw;
   position: absolute;
 }
+.nope {
+  text-align: center;
+  height: 6.2vh;
+  font-size: 0vh;
+  color: white;
+  background-color: #4f4f52;
+  width: 0vw;
+  top: 0;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  position: absolute;
+  margin-top: 7vh;
+  border-radius: 1vw;
+}
 
 .settings {
   margin-top: 1vh;
@@ -55,10 +69,10 @@ body {
   margin-top: 6.2vh;
 }
 .box {
-  max-width: 10vw;
-  max-height: 10vw;
-  min-width: 10vw;
-  min-height: 10vw;
+  max-width: 15vw;
+  max-height: 15vw;
+  min-width: 15vw;
+  min-height: 15vw;
   border: 0.5vw solid #4f4f52;
   margin: 0.6vw;
   background-color: #121213;
@@ -74,4 +88,25 @@ table {
 }
 .first {
   color: white;
+}
+.key{
+  width: 7vw;
+  height: 8vh;
+  margin-top: 1vh;
+  margin-left: 0.2vw;
+  border: none;
+  border-radius: 1vh;
+  font-size: 120%;
+  color: white;
+  background-color: #818384;
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+
+}
+.c{
+  text-align: center;
+  position: fixed;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  bottom: 1vh;
+
 }

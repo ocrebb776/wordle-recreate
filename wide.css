@@ -18,6 +18,21 @@ body {
     position: absolute;
 }
 
+.nope {
+    text-align: center;
+    height: 6.2vh;
+    font-size: 0vh;
+    color: white;
+    background-color: #4f4f52;
+    width: 0vw;
+    top: 0;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    position: absolute;
+    margin-top: 7vh;
+    border-radius: 1vw;
+}
+
 .settings {
     margin-top: 1vh;
     float: right;
@@ -57,20 +72,20 @@ body {
 .b {
     color: white;
     text-align: center;
-    margin-top: 19vh;
+    margin-top: 11vh;
     text-align: center;
 }
 
 .box {
-    max-width: 10vh;
-    max-height: 10vh;
-    min-width: 10vh;
-    min-height: 10vh;
-    border: 0.5vh solid #4f4f52;
+    max-width: 5vh;
+    max-height: 5vh;
+    min-width: 7vh;
+    min-height: 7vh;
+    border: 0.25vh solid #4f4f52;
     margin: 0.6vh;
     background-color: #121213;
     position: static;
-    font-size: 400%;
+    font-size: 300%;
     color: white;
     margin-left: auto;
     margin-bottom: auto;
@@ -86,4 +101,26 @@ table {
 
 .first {
     color: white;
+}
+
+.key{
+    width: 5vw;
+    height: 8vh;
+    margin-top: 1vh;
+    margin-left: 0.5vw;
+    border: none;
+    border-radius: 1vh;
+    font-size: 120%;
+    color: white;
+    background-color: #818384;
+    font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+
+}
+.c{
+    text-align: center;
+    position: fixed;
+    margin-left: 19vw;
+    margin-right: 19vw;
+    bottom: 1vh;
+
 }
