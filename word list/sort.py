@@ -4,6 +4,6 @@ def readFile(fileName):
         fileObj.close()
         return words
 yea=readFile("words.txt")
-small = [x for x in yea if len(x)<6]
+small = [x for x in yea if len(x)<6 and len(x)>4]
 print(small)
 input()
