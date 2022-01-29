@@ -29,6 +29,15 @@ function notword() {
   document.getElementById('nope').style.fontSize = '5vh'
   delay(2).then(() => hidden())
 }
+function hidewin() {
+  document.getElementById('yay').style.width = '0vw'
+  document.getElementById('yay').style.fontSize = '0vh'
+}
+function win() {
+  document.getElementById('yay').style.width = '60vw'
+  document.getElementById('yay').style.fontSize = '5vh'
+  delay(2).then(() => hidewin())
+}
 
 let stage = 0
 const ent = []
@@ -90,6 +99,7 @@ function check() {
   if (enter == correct) {
     alert('you win')
     console.log('yo')
+    document.getElementById('word').innerHTML = correct.toLowerCase()
   }
 
   let i = 1

@@ -1,5 +1,5 @@
 body {
-  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
   background-color: #121213;
 }
 .header {
@@ -89,7 +89,7 @@ table {
 .first {
   color: white;
 }
-.key{
+.key {
   margin-right: 0vw;
   margin-left: 0vw;
   width: 9vw;
@@ -100,14 +100,26 @@ table {
   font-size: 5vw;
   color: white;
   background-color: #818384;
-  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
-
+  font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
 }
-.c{
+.c {
   text-align: center;
   position: fixed;
   bottom: 1vh;
   margin-right: 0vw;
   margin-left: 0vw;
-
+}
+.yay {
+  text-align: center;
+  height: 6.2vh;
+  font-size: 0vh;
+  color: white;
+  background-color: #4f4f52;
+  width: 0vw;
+  top: 0;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  position: absolute;
+  margin-top: 7vh;
+  border-radius: 1vw;
 }
