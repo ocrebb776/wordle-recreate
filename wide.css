@@ -16,8 +16,7 @@ body {
   margin-right: 20vw;
   position: absolute;
 }
-.wordle {
-}
+
 .settings {
   margin-top: 1vh;
   float: right;
@@ -69,8 +68,13 @@ body {
   color: white;
   margin-left: 0vw;
   margin-bottom: 0vh;
+  text-align: center;
+  text-transform: capitalize;
 }
 table {
   margin-left: auto;
   margin-right: auto;
+}
+.first {
+  color: white;
 }

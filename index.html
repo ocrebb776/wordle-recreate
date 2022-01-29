@@ -2,24 +2,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" media="screen and (max-width: 750px)" href="narrow.css">
 <script src="index.js"></script><script>
-    let RowOne = "HELLO";
-    function ch(){
-    document.getElementById('a1').innerHTML = RowOne[0];
-    document.getElementById('a2').innerHTML = RowOne[1];
-    document.getElementById('a3').innerHTML = RowOne[2];
-    document.getElementById('a4').innerHTML = RowOne[3];
-    document.getElementById('a5').innerHTML = RowOne[4];
-    }
+
 </script>
 <body><div class="header"><div class="wordle"><b>WORDLE</div></div>
     <img class="qmark" src="question.svg"><img class="stats" src="stats.svg"><img class="settings" src="settings.svg"></img></img></img></b><br><div class="b"><b>
         <table>
-<tr><th><button class="box" onclick="ch()"id="a1"> </button></th><th><button class="box" id="a2">E</button></th><th><button class="box" id="a3"> </button></th><th><button class="box" id="a4"> </button><th><button class="box" id="a5"> </button></th></tr>
-<tr><th><button class="box" id="b1"> </button></th><th><button class="box" id="b2">E</button></th><th><button class="box" id="b3"> </button></th><th><button class="box" id="b4"> </button><th><button class="box" id="b5"> </button></th></tr>
-<tr><th><button class="box" id="c1"> </button></th><th><button class="box" id="c2">E</button></th><th><button class="box" id="c3"> </button></th><th><button class="box" id="c4"> </button><th><button class="box" id="c5"> </button></th></tr>
-<tr><th><button class="box" id="d1"> </button></th><th><button class="box" id="d2">E</button></th><th><button class="box" id="d3"> </button></th><th><button class="box" id="d4"> </button><th><button class="box" id="d5"> </button></th></tr>
-<tr><th><button class="box" id="e1"> </button></th><th><button class="box" id="e2">E</button></th><th><button class="box" id="e3"> </button></th><th><button class="box" id="e4"> </button><th><button class="box" id="e5"> </button></th></tr>
-<tr><th><button class="box" id="f1"> </button></th><th><button class="box" id="f2">E</button></th><th><button class="box" id="f3"> </button></th><th><button class="box" id="f4"> </button><th><button class="box" id="f5"> </button></th></tr>
-  </table></b> <p id="a1" >s</p> </div>
+<tr><th><button class="box first" onclick="chone()"id="a1"> </button></th><th><button class="box first" id="a2"></button></th><th><button class="box first" id="a3"> </button></th><th><button class="box first" id="a4"> </button><th><button class="box first" id="a5"> </button></th></tr>
+<tr><th><button class="box" onclick="chtwo()"id="b1"> </button></th><th><button class="box" id="b2"></button></th><th><button class="box" id="b3"> </button></th><th><button class="box" id="b4"> </button><th><button class="box" id="b5"> </button></th></tr>
+<tr><th><button class="box" id="c1"> </button></th><th><button class="box" id="c2"></button></th><th><button class="box" id="c3"> </button></th><th><button class="box" id="c4"> </button><th><button class="box" id="c5"> </button></th></tr>
+<tr><th><button class="box" id="d1"> </button></th><th><button class="box" id="d2"></button></th><th><button class="box" id="d3"> </button></th><th><button class="box" id="d4"> </button><th><button class="box" id="d5"> </button></th></tr>
+<tr><th><button class="box" id="e1"> </button></th><th><button class="box" id="e2"></button></th><th><button class="box" id="e3"> </button></th><th><button class="box" id="e4"> </button><th><button class="box" id="e5"> </button></th></tr>
+<tr><th><button class="box" id="f1"> </button></th><th><button class="box" id="f2"></button></th><th><button class="box" id="f3"> </button></th><th><button class="box" id="f4"> </button><th><button class="box" id="f5"> </button></th></tr>
+  </table></b>  </div>
 </body>
 </html>
