@@ -106,16 +106,16 @@ table {
     height: 8vh;
   }
 }
-@media screen and (max-width: 900px) and (min-width: 700px) {
-  .key {
-    width: 60px;
-    height: 8vh;
-  }
-}
+
 @media screen and (max-width: 700px) and (min-width: 500px) {
   .key {
-    width: 40px;
+    width: 8vw;
     height: 8vh;
+  }
+  .c {
+    position: fixed;
+    float: bottom;
+    bottom: 0;
   }
 }
 @media screen and (max-width: 500px) and (min-width: 300px) {
