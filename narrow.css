@@ -102,8 +102,9 @@ table {
 }
 @media screen and (max-width: 900px) and (min-width: 700px) {
   .key {
-    width: 60px;
+    width: 6vw;
     height: 8vh;
+    position: absolute;
   }
 }
 @media screen and (max-width: 900px) and (min-width: 700px) {
@@ -127,8 +128,8 @@ table {
 @media screen and (max-width: 300px) and (min-width: 100px) {
   /* chris's phone */
   .key {
-    width: 5vw;
-    height: 8vh;
+    width: 8px;
+    height: 5vh;
   }
 }
 .c {
