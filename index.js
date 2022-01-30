@@ -54,6 +54,7 @@ function win() {
   delay(10).then(() => hidewin())
 }
 const random = [
+  'WRUNG',
   'COULD',
   'PERKY',
   'MOUNT',

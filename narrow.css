@@ -106,6 +106,12 @@ table {
     height: 8vh;
   }
 }
+@media screen and (max-width: 900px) and (min-width: 700px) {
+  .key {
+    width: 60px;
+    height: 8vh;
+  }
+}
 @media screen and (max-width: 700px) and (min-width: 500px) {
   .key {
     width: 40px;
@@ -115,6 +121,12 @@ table {
 @media screen and (max-width: 500px) and (min-width: 300px) {
   .key {
     width: 30px;
+    height: 8vh;
+  }
+}
+@media screen and (max-width: 300px) and (min-width: 100px) {
+  .key {
+    width: 10px;
     height: 8vh;
   }
 }
