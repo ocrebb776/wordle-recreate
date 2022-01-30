@@ -23,13 +23,22 @@ function grayf(cell) {
   document.getElementById(cell).style.backgroundColor = gray
   document.getElementById(cell).style.border = gray
 }
-function hidden() {
-  document.getElementById('nope').style.width = '0vw'
-  document.getElementById('nope').style.fontSize = '0vh'
+function hidden(tag) {
+  document.getElementById(tag).style.width = '0vw'
+  document.getElementById(tag).style.fontSize = '0vh'
 }
-function notword() {
-  document.getElementById('nope').style.width = '60vw'
-  document.getElementById('nope').style.fontSize = '5vh'
+function notword(tag) {
+  document.getElementById(tag).style.width = '60vw'
+  document.getElementById(tag).style.fontSize = '5vh'
+  delay(2).then(() => hidden(tag))
+}
+function hidden() {
+  document.getElementById('fe').style.width = '0vw'
+  document.getElementById('fe').style.fontSize = '0vh'
+}
+function notlong() {
+  document.getElementById('fe').style.width = '60vw'
+  document.getElementById('fe').style.fontSize = '5vh'
   delay(2).then(() => hidden())
 }
 function hidewin() {
@@ -39,7 +48,7 @@ function hidewin() {
 }
 function win() {
   document.getElementById('yay').style.width = '70vw'
-  document.getElementById('yay').style.fontSize = '5vw'
+  document.getElementById('yay').style.fontSize = '2vh'
   document.getElementById('yay').style.height = '70vh'
   delay(10).then(() => hidewin())
 }
@@ -53,6 +62,7 @@ const orange = '#b59d3b'
 const green = '#538d4e'
 const gray = '#4f4f52'
 const con = ['a', 'b', 'c', 'd', 'e', 'f']
+
 let keygray
 /*
 function display(rows) {
@@ -89,10 +99,10 @@ function checks() {
       check()
       a = 'y'
     } else {
-      notword()
+      notword('nope')
     }
   } else {
-    alert('must be 5 letters long')
+    notlong()
   }
 }
 function back() {
@@ -117,6 +127,8 @@ function check() {
       orangef(row + String(i))
     } else {
       grayf(row + String(i))
+      let x = i + 1
+      let y = correct[x]
     }
     i += 1
   }
