@@ -52,12 +52,46 @@ function win() {
   document.getElementById('yay').style.height = '70vh'
   delay(10).then(() => hidewin())
 }
+const random = [
+  'COULD',
+  'PERKY',
+  'MOUNT',
+  'WHACK',
+  'SUGAR',
+  'KNOLL',
+  'WINCE',
+  'PRICK',
+  'ROBOT',
+  'PROXY',
+  'SHIRE',
+  'SOLAR',
+  'PANIC',
+  'TANGY',
+  'ABBEY',
+  'FAVOR',
+  'DRINK',
+  'QUERY',
+  'GORGE',
+  'CRANK',
+  'SLUMP',
+  'BANAL',
+  'TIGER',
+  'SIEGE',
+  'TRUSS',
+  'BOOST',
+  'REBUS',
+]
+
+let items = random[Math.floor(Math.random() * random.length)]
+
+let correct = random[Math.floor(Math.random() * random.length)]
 
 let stage = 0
-const ent = []
-const array = ['C', 'A', 'S', 'E', 'S']
+let ent = []
+let array = correct.split('')
+console.log(array)
 let enter
-let correct = 'CASES'
+
 const orange = '#b59d3b'
 const green = '#538d4e'
 const gray = '#4f4f52'

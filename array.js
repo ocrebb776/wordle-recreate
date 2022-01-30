@@ -12998,4 +12998,5 @@ const word = [
   'ZYGON',
   'ZYMES',
   'ZYMIC',
+  'AEIOU',
 ]
