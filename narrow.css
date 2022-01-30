@@ -104,7 +104,6 @@ table {
   .key {
     width: 6vw;
     height: 8vh;
-    position: absolute;
   }
 }
 @media screen and (max-width: 900px) and (min-width: 700px) {
