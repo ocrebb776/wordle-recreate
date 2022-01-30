@@ -23,14 +23,14 @@ function grayf(cell) {
   document.getElementById(cell).style.backgroundColor = gray
   document.getElementById(cell).style.border = gray
 }
-function hidden(tag) {
-  document.getElementById(tag).style.width = '0vw'
-  document.getElementById(tag).style.fontSize = '0vh'
+function hidde() {
+  document.getElementById('nope').style.width = '0vw'
+  document.getElementById('nope').style.fontSize = '0vh'
 }
 function notword(tag) {
   document.getElementById(tag).style.width = '60vw'
   document.getElementById(tag).style.fontSize = '5vh'
-  delay(2).then(() => hidden(tag))
+  delay(2).then(() => hidde())
 }
 function hidden() {
   document.getElementById('fe').style.width = '0vw'
@@ -39,7 +39,7 @@ function hidden() {
 function notlong() {
   document.getElementById('fe').style.width = '60vw'
   document.getElementById('fe').style.fontSize = '5vh'
-  delay(2).then(() => hidden())
+  delay(2).then(() => hidde())
 }
 function hidewin() {
   document.getElementById('yay').style.width = '0vw'
@@ -151,6 +151,8 @@ function check() {
     document.getElementById('word').innerHTML = correct.toLowerCase()
     win()
     document.getElementById('tri').innerHTML = stage + 1 + ' tries'
+  } else if (stage == 6) {
+    alert('the answer is' + correct)
   }
 
   let i = 1
