@@ -38,6 +38,7 @@ function hidden() {
 }
 function notlong() {
   document.getElementById('fe').style.width = '60vw'
+  document.getElementById('fe').style.hight = '60vh'
   document.getElementById('fe').style.fontSize = '5vh'
   delay(2).then(() => hidden())
 }
