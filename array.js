@@ -1,29 +1,8 @@
-let a = 'blank'
-let b = 'blank'
-let c = 'blank'
-let d = 'blank'
-let e = 'blank'
-let f = 'blank'
-let g = 'blank'
-let h = 'blank'
-let i = 'blank'
-let j = 'blank'
-let k = 'blank'
-let l = 'blank'
-let m = 'blank'
-let nr = 'blank'
-let o = 'blank'
-let p = 'blank'
-let q = 'blank'
-let r = 'blank'
-let s = 'blank'
-let t = 'blank'
-let u = 'blank'
-let v = 'blank'
-let w = 'blank'
-let x = 'blank'
-let y = 'blank'
-let z = 'blank'
+$(document).ready(function () {
+  $('button').click(function () {
+    $('#' + ent[i - 1]).css('background-color', 'yellow')
+  })
+})
 
 const word = [
   'AAHED',

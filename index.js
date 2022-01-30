@@ -131,6 +131,7 @@ function checks() {
   if (enter.length == 5) {
     if (word.includes(enter) == true) {
       check()
+      stage = stage + 1
       a = 'y'
     } else {
       notword('nope')
@@ -140,9 +141,11 @@ function checks() {
   }
 }
 function back() {
-  n = n - 1
-  ent[n - 1] = ''
-  set(con[stage] + String(n), '')
+  if (n > 1) {
+    n = n - 1
+    ent[n - 1] = ''
+    set(con[stage] + String(n), '')
+  }
 }
 function check() {
   var row = con[stage]
@@ -152,23 +155,23 @@ function check() {
     win()
     document.getElementById('tri').innerHTML = stage + 1 + ' tries'
   } else if (stage == 6) {
-    alert('the answer is' + correct)
+    alert('the answer is :' + correct)
   }
 
   let i = 1
   while (i < 6) {
+    let x = i - 1
     if (enter[i - 1] == correct[i - 1]) {
       greenf(row + String(i))
     } else if (array.includes(enter[i - 1]) == true) {
       orangef(row + String(i))
     } else {
       grayf(row + String(i))
-      let x = i + 1
-      let y = correct[x]
+      $('#' + correct[x]).css('background-color', 'yellow')
     }
     i += 1
   }
-  stage = stage + 1
+
   number = 0
   n = 1
 }
