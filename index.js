@@ -157,17 +157,22 @@ function check() {
   } else if (stage == 6) {
     alert('the answer is :' + correct)
   }
-
+  let tochange
   let i = 1
   while (i < 6) {
     let x = i - 1
     if (enter[i - 1] == correct[i - 1]) {
       greenf(row + String(i))
+      tochange = '#' + enter[i - 1].toLowerCase()
+      $(tochange).css('background-color', green)
     } else if (array.includes(enter[i - 1]) == true) {
       orangef(row + String(i))
+      tochange = '#' + enter[i - 1].toLowerCase()
+      $(tochange).css('background-color', orange)
     } else {
       grayf(row + String(i))
-      $('#' + correct[x]).css('background-color', 'yellow')
+      tochange = '#' + enter[i - 1].toLowerCase()
+      $(tochange).css('background-color', gray)
     }
     i += 1
   }

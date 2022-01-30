@@ -3,10 +3,18 @@
 <link rel="stylesheet" media="screen and (min-width: 750px)" href="wide.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" media="screen and (max-width: 750px)" href="narrow.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="index.js"></script>
 <script src="array.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
 <script>
+  $(document).ready(function () {
+  $('button').click(function () {
+    $('#' + ent[i - 1]).css('background-color', 'yellow')
+  })
+})
+
 </script>
 
 <body>
