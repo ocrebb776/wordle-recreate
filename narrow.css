@@ -90,10 +90,8 @@ table {
   color: white;
 }
 .key {
-  margin-right: 0vw;
-  margin-left: 0vw;
-  width: 9vw;
-  height: 8vh;
+  margin-right: auto;
+  margin-left: auto;
   margin-top: 1vh;
   border: none;
   border-radius: 1vh;
@@ -102,12 +100,29 @@ table {
   background-color: #818384;
   font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
 }
+@media screen and (max-width: 900px) and (min-width: 700px) {
+  .key {
+    width: 60px;
+    height: 8vh;
+  }
+}
+@media screen and (max-width: 700px) and (min-width: 500px) {
+  .key {
+    width: 40px;
+    height: 8vh;
+  }
+}
+@media screen and (max-width: 500px) and (min-width: 300px) {
+  .key {
+    width: 30px;
+    height: 8vh;
+  }
+}
 .c {
   text-align: center;
-  position: fixed;
-  bottom: 1vh;
-  margin-right: 0vw;
-  margin-left: 0vw;
+  bottom: 1px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .yay {
   text-align: center;

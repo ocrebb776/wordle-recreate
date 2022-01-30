@@ -1,9 +1,3 @@
-$(document).ready(function () {
-  $('button').click(function () {
-    $('#' + ent[i - 1]).css('background-color', 'yellow')
-  })
-})
-
 const word = [
   'AAHED',
   'AALII',
