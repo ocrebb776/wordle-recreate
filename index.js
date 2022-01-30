@@ -39,7 +39,7 @@ function hidden() {
 function notlong() {
   document.getElementById('fe').style.width = '60vw'
   document.getElementById('fe').style.fontSize = '5vh'
-  delay(2).then(() => hidde())
+  delay(2).then(() => hidden())
 }
 function hidewin() {
   document.getElementById('yay').style.width = '0vw'
