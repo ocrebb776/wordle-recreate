@@ -1,3 +1,5 @@
 # wordle-recreate
-css recreation of wordle website
+near complete recreation 
+plays a random word from previous wordle games
+
 https://ocrebb776.github.io/wordle-recreate/
