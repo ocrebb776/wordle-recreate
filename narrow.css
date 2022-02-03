@@ -1,6 +1,7 @@
 body {
   font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
   background-color: #121213;
+  font-size: 0px;
 }
 .header {
   text-align: center;
@@ -90,52 +91,25 @@ table {
   color: white;
 }
 .key {
-  margin-right: auto;
-  margin-left: auto;
+  width: 9vw;
+  height: 8vh;
+  margin-right: 0px;
+  margin-left: 0.5vw;
   margin-top: 1vh;
   border: none;
   border-radius: 1vh;
-  font-size: 5vw;
+  font-size: 5vh;
   color: white;
   background-color: #818384;
   font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
 }
-@media screen and (max-width: 900px) and (min-width: 700px) {
-  .key {
-    width: 6vw;
-    height: 8vh;
-  }
-}
 
-@media screen and (max-width: 700px) and (min-width: 500px) {
-  .key {
-    width: 8vw;
-    height: 8vh;
-  }
-  .c {
-    position: fixed;
-    float: bottom;
-    bottom: 0;
-  }
-}
-@media screen and (max-width: 500px) and (min-width: 300px) {
-  .key {
-    width: 30px;
-    height: 8vh;
-  }
-}
-@media screen and (max-width: 300px) and (min-width: 100px) {
-  /* chris's phone */
-  .key {
-    width: 8px;
-    height: 5vh;
-  }
-}
 .c {
+  position: fixed;
+  left: 2.75vw;
+  bottom: 1vh;
   text-align: center;
-  bottom: 1px;
-  margin-right: auto;
-  margin-left: auto;
+  font-size: 0px;
 }
 .yay {
   text-align: center;
